@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership | Mahashala Michael</title>
+
+    <style>
+        /* GENERAL RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #14002b, #31007a, #6100b8);
+            background-attachment: fixed;
+            color: white;
+            padding-bottom: 60px;
+        }
+
+        /* NAVBAR */
+        header {
+            width: 100%;
+            padding: 15px 30px;
+            background: rgba(0,0,0,0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(5px);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00ffe0;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.2s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #00ffe0;
+        }
+
+        /* CONTENT SECTION */
+        .content-section {
+            padding: 60px 30px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 40px;
+            text-align: center;
+            color: #00ffe0;
+        }
+
+        /* Leadership Cards */
+        .leadership-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            backdrop-filter: blur(5px);
+        }
+
+        .leadership-card img {
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 2px solid #00ffe0;
+        }
+
+        .leadership-card .text {
+            flex: 1;
+        }
+
+        .leadership-card h2 {
+            margin-bottom: 10px;
+            color: #00ffe0;
+            font-size: 26px;
+        }
+
+        .leadership-card p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .leadership-card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .leadership-card img {
+                width: 100%;
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">MAHASHALA</h2>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="active" href="leadership.html">Leadership</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="content-section">
+    <div class="container">
+
+        <h1>Leadership Experience</h1>
+
+        <div class="leadership-card">
+            <img src="assets/images/mcsak-president.jpg" alt="MCSAK Presidency Photo">
+            <div class="text">
+                <h2>President, Meteorology and Climate Science Students Association (MCSAK)</h2>
+                <p>
+                    As President of MCSAK, I led academic, environmental, and professional development initiatives for all 
+                    Meteorology and Climate Science students at KNUST. My leadership involved organizing workshops, 
+                    scientific dialogues, and creating opportunities for student advancement.
+                </p>
+                <p>
+                    I strengthened collaboration with academic departments, built networks with climate organizations, 
+                    and enhanced student engagement through innovative programs.
+                </p>
+            </div>
+        </div>
+
+        <div class="leadership-card">
+            <img src="assets/images/climate-outreach.jpg" alt="Climate Outreach">
+            <div class="text">
+                <h2>Climate Outreach Lead – High School Engagement</h2>
+                <p>
+                    I coordinated senior high school outreach programs across Kumasi to educate students on climate change, 
+                    meteorology, and environmental sustainability. These engagements helped improve climate literacy and inspired 
+                    career interest in environmental sciences.
+                </p>
+            </div>
+        </div>
+
+        <div class="leadership-card">
+            <img src="assets/images/church-ministry.jpg" alt="Church Leadership">
+            <div class="text">
+                <h2>Ministry Leadership The Church of Pentecost</h2>
+                <p>
+                    I support youth mentorship, sermon preparation, and spiritual development programs. My leadership work includes 
+                    delivering well-structured messages, guiding young believers, and contributing to church activities.
+                </p>
+            </div>
+        </div>
+
+        <div class="leadership-card">
+            <img src="assets/images/business-lead.jpg" alt="Entrepreneurship Leadership">
+            <div class="text">
+                <h2>Entrepreneurial Leadership Founder of Shala_Trades</h2>
+                <p>
+                    As the founder of Shala_Trades, I lead brand strategy, trading education, community engagement, and business 
+                    development. My leadership in entrepreneurship emphasizes discipline, analysis, and impactful communication.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
